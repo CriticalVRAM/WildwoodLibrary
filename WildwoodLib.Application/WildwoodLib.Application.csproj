@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WildwoddLib.DataAccess\WildwoodLib.DataAccess.csproj" />
+    <ProjectReference Include="..\WildwoodLib\WildwoodLib.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
